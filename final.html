@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>CARS24.com</title>
+		<link rel="stylesheet" type="text/css" href="final.css">
+		<link rel="icon" href="https://static.cars24.com/cars24/images/cars-logo.png?v=1" type="image/x-icon">
+		<script type="text/javascript" src="final.js"></script>
+	</head>
+	<body>
+		<h1 id="heading" style="color:chocolate;">FINAL PORJECT</h1>
+		<p id="purpose"><span style="background-color:yellow; font-family:courier">Why old car? Buy a brand new car by selling your old car. Here's the form to sell your old car in one step</span></p> 
+		<div style="background-color:blue;"></div><br>
+		<img id="ro" align="left" title="CARS24.COM" src="https://static.cars24.com/cars24/images/cars-logo.png?v=1" alt="CARS24.COM">
+		<h1>CAR SALE FORM</H1><br>
+		
+		<div style="background-color:blue;"></div><br>
+		<p id="tj" style="background-color:tomato; color:white;"> </p>
+		<p id="para1">( MAKE SURE YOU HAVE AN ACTIVE INTERNET CONNECTION )</p>
+		
+		<table id="table">
+		<form>
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>FIRSTNAME</b></mark></td>
+			<td><input class="column2" id="field1" type="text" onblur="check1();" /></td> <td><span class="column3" id="para"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>SECONDNAME</b></mark></td>
+			<td><input class="column2" id="field2" type="text" onblur="check2();"/></td> <td><span class="column3" id="para2"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>PHONE NUMBER</b></mark></td>
+			<td><input class="column2" id="field3" type="text" placeholder="xxx-xxx-xxxx" onblur="check3();"/></td> <td><span class="column3" id="cols3"></span></td>
+			</tr>
+		
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>EMAIL ID</b></mark></td>
+			<td><input class="column2" id="field4" type="text"  placeholder="xyz@gmail.com" onblur="check4();"/></td> <td><span class="column3" id="cols4"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>ADDRESS</b></mark></td>
+			<td><input class="column2" id="field6" type="text" onblur="check6();"/></td> <td><span class="column3" id="cols6"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><div style="background-color:;"></div></td>
+			<td></td> <td></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>VEHICLE MAKE</b></mark</td>
+			<td><input class="column2" id="field5" type="text" onblur="check5();"/></td> <td><span class="column3" id="cols5"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;" style="background-color:white;"><b>MODEL</b></mark></td>
+			<td><input class="column2" id="field7" type="text" onblur="check7();"/></td> <td><span class="column3" id="cols7"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>FUEL TYPE</b></mark></td>
+			<td><input type="radio" id="petrol" name="gender" value="petrol" checked>
+			<label for="petrol"><mark style="background-color:white;">Petrol</mark></label><br>
+			<input type="radio" id="diesel" name="gender" value="diesel">
+			<label for="diesel"><mark style="background-color:white;">Diesel</mark></label><br>
+			<input type="radio" id="lpg" name="gender" value="lpg">
+			<label for="lpg"><mark style="background-color:white;">LPG</mark></label></td> <td><span class="column3" id="co"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>KMs DRIVEN</b></mark></td>
+			<td><input class="column2" id="field8" type="text" onblur="check8();"/></td> <td><span class="column3" id="cols8"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>NO. OF OWNERS</b></mark></td>
+			<td><input class="column2" id="field9" type="text" onblur="check9();"/></td> <td><span class="column3" id="cols9"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>TYPES OF INSPECTION</b></mark></td>
+			<td><input type="radio" id="yes" name="inspection" value="yes" checked>
+			<label for="petrol"><mark style="background-color:white;">DOOR STEP INSPECTION</mark></label><br>
+			<input type="radio" id="no" name="inspection" value="no">
+			<label for="no"><mark style="background-color:white;">NEAREST STORE</mark></label></td> <td><span class="column3" id="co"></span></td>
+			</tr>
+			
+			<tr>
+			<td style="text-align:center;"><mark style="background-color:white;"><b>DATE OF INSPECTION</b></mark></td>
+			<td><input class="column2" id="field10" type="date" onblur="check10();"/></td> <td><span class="column3" id="cols10"></span></td>
+			</tr>
+			
+		</form>
+		</table>
+		<br>
+		<button class="order" onclick="docalc();">ORDER NOW</button>
+		<p id="ki"></p>
+		<p id="ordersummery"> </p>
+		
+	</body>
+<html>

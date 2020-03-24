@@ -1,0 +1,90 @@
+body
+{
+	background-repeat:norepeat;
+	background-size:cover;
+}
+div
+{
+	height:10px;
+	width:100%;
+}
+h1
+{
+	font-size:medium;
+	color:blue;
+	margin-left:auto;
+	margin-right:auto;
+	width:14%;
+}
+#para1
+{
+	margin-left:auto;
+	font-size:medium;
+	color:red;
+	margin-right:auto;
+	width:40%;
+}
+table
+{
+	border:0px solid blue;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	
+}
+td
+{
+	border:0px solid blue;
+	color:blue;
+	text-align:left;
+}
+.column2
+{
+	color:blue;
+	text-align:left;
+}
+.column3
+{
+	color:red;
+	text-align:left;
+}
+.order
+{
+	margin-left:600px;
+	margin-right:auto;
+	width:105px;
+}
+#ordersummery
+{
+	margin-left:360px;
+}
+#ki
+{
+	margin-left:400px;
+	
+}
+#cols5
+{
+	color:lightgrey;
+	margin-left:0px;
+}
+#ro
+{
+	height:40px;
+}
+#purpose
+{
+	text-align:center;
+	font-size:20px;
+}
+#tj
+{
+	text-align:center;
+
+}
+#rt
+{
+	margin-left:250px;
+	margin-right:auto;
+	width:105px;
+}
